@@ -3,12 +3,15 @@ if(number <= 1 || number == undefined) {
     return false;
 }
 
-for(let i=2; i<=Math.sqrt(number); i++) {
-    if( number % i == 0) {
-        return true;
+
+for(let i=2; i<=Math.sqrt(num); i++) {
+    if( num % i == 0) {
+        return false;
+
+
     }
 }
-return false;
+return true;
 
 }
 
